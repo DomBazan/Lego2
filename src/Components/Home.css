@@ -1,0 +1,89 @@
+/* Base styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #f5f5f5, #e2e8f0);
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1 {
+    color: #e4002b; /* Classic LEGO red */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  h2, h3 {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  /* Layout helpers */
+  div {
+    margin: 20px;
+  }
+  
+  /* Input styling */
+  input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 280px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  }
+  
+  button:hover {
+    background-color: #e6b800;
+  }
+  
+  /* LEGO card layout */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 2px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 16px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+  }
+  
