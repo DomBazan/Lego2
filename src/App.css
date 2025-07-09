@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  background: linear-gradient(135deg, #ff7f50, #ff4500); /* Gradient from salmon orange to sunset orange */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff; /* White text for contrast */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 20px; /* Bubbly effect */
+  border: none;
+  outline: none;
+  font-size: 1em;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #ff6347; /* Tomato color */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Bubbly effect */
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4500; /* Darker orange on hover */
+}
+
+div {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px; /* Bubbly effect */
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  border-radius: 10px; /* Bubbly effect for images */
+  max-width: 100%;
+  height: auto;
+}
